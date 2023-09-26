@@ -2,14 +2,14 @@
 import Link from 'next/link';
 import StudentInfo from '../StudentInfo.js';
 
-function Page() {
+function Week2() {
   return (
-    <div>
-      <h1>CPRG 306: Web Development 2 - Assignments</h1>
+    <div style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}>
+      <h1>My Shopping List</h1>
       <StudentInfo />
-      <Link href="/week2/page.js">Go to Week 2</Link>
+      {/* You can list out your shopping items here */}
     </div>
   );
 }
 
-export default Page;
+export default Week2;
